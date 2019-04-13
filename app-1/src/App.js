@@ -17,6 +17,7 @@ class App extends Component {
       <div className="App">
       <h1>This is App #1</h1>
       <h2>Please enter any text below to see output:</h2>
+      <h3>Hello fellow renderers!</h3>
         <input onChange={e => this.handleChange(e.target.value)} type="text" />
         <p>{this.state.message}</p>
       </div>
