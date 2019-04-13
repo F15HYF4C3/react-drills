@@ -16,10 +16,8 @@ class App extends Component {
       return <h3 key={index}>{element}</h3>
     })
     return <div>
-          <h1 className="h1">This is App #2</h1>;
-
-<h2 className="h2">These are my favorite colors!</h2>
-    
+<h1 className="h1">This is App #2</h1>;
+<h2 className="h2">These are my favorite colors!</h2>    
     <div className="App">{colorFlash}</div>
     </div>
   }
